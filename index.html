@@ -1,0 +1,268 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <meta name="theme-color" content="#0b0b0d">
+    <meta name="description" content="Principles for a quieter mind.">
+
+    <title>STILL. — A Personal Mindset Library</title>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
+    <link
+        href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@400;500;600&family=Inter:wght@400;500;600&display=swap"
+        rel="stylesheet"
+    >
+
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+<main class="app">
+
+    <header class="topbar">
+
+        <a href="#" class="logo" aria-label="STILL home">
+            STILL<span>.</span>
+        </a>
+
+        <!-- CLICKABLE PERSONAL NOTES -->
+        <button
+            class="edition about-button"
+            id="about-button"
+            aria-haspopup="dialog"
+            aria-controls="about-overlay"
+        >
+            PERSONAL NOTES
+            <span aria-hidden="true">↗</span>
+        </button>
+
+    </header>
+
+    <section class="library">
+
+        <div class="intro">
+
+            <p class="eyebrow">Seperate what is from what if..</p>
+
+            <h1>Notes to self.</h1>
+
+            <p class="subtitle">
+                A collection of principles to return to
+                when the mind becomes too loud.
+            </p>
+
+        </div>
+
+        <div class="carousel" id="carousel">
+
+            <div class="card" id="card">
+
+                <div class="card-top">
+
+                    <span class="label">A PRINCIPLE TO KEEP</span>
+
+                    <span class="counter" id="counter">
+                        01 / 18
+                    </span>
+
+                </div>
+
+                <div class="card-content">
+
+                    <span class="small-line"></span>
+
+                    <h2 id="principle-title">
+                        Build what you can build today.
+                    </h2>
+
+                    <button class="read-button" id="read-button">
+                        Read principle
+                        <span aria-hidden="true">↗</span>
+                    </button>
+
+                </div>
+
+                <div class="card-bottom">
+
+                    <span id="note-number">NOTE NO. 01</span>
+
+                </div>
+
+            </div>
+
+        </div>
+
+        <nav class="navigation" aria-label="Note navigation">
+
+            <button
+                id="prev-button"
+                class="nav-button"
+                aria-label="Previous note"
+            >
+                <span aria-hidden="true">←</span>
+                <span>Previous</span>
+            </button>
+
+            <div
+                class="dots"
+                id="dots"
+                aria-label="Choose a note"
+            ></div>
+
+            <button
+                id="next-button"
+                class="nav-button"
+                aria-label="Next note"
+            >
+                <span>Next</span>
+                <span aria-hidden="true">→</span>
+            </button>
+
+        </nav>
+
+        <p class="hint">Let this be a gentle reminder.</p>
+
+    </section>
+
+    <footer class="footer">
+
+        <span>STILL. © 2026</span>
+
+        <span>Do what you can.</span>
+
+    </footer>
+
+</main>
+
+
+<!-- =================================
+     PRINCIPLE DETAIL PANEL
+================================= -->
+
+<div class="overlay" id="overlay" aria-hidden="true">
+
+    <article
+        class="detail-panel"
+        id="detail-panel"
+        role="dialog"
+        aria-modal="true"
+        aria-labelledby="detail-title"
+        aria-describedby="detail-description"
+    >
+
+        <div class="detail-top">
+
+            <span class="label">PERSONAL NOTE</span>
+
+            <button
+                class="close-button"
+                id="close-button"
+                aria-label="Close note"
+            >×</button>
+
+        </div>
+
+        <div class="detail-content">
+
+            <p class="detail-number" id="detail-number">
+                NOTE NO. 01
+            </p>
+
+            <h2 id="detail-title">
+                Build what you can build today.
+            </h2>
+
+            <div class="divider"></div>
+
+            <p class="description" id="detail-description"></p>
+
+            <p class="reminder-label">REMEMBER</p>
+
+            <p class="reminder" id="detail-reminder"></p>
+
+        </div>
+
+        <div class="detail-bottom">
+
+            <span>STILL.</span>
+
+            <span>TAKE YOUR TIME READING.</span>
+
+        </div>
+
+    </article>
+
+</div>
+
+
+<!-- =================================
+     ABOUT STILL PANEL
+================================= -->
+
+<div
+    class="overlay"
+    id="about-overlay"
+    aria-hidden="true"
+>
+
+    <article
+        class="detail-panel"
+        id="about-panel"
+        role="dialog"
+        aria-modal="true"
+        aria-labelledby="about-title"
+        aria-describedby="about-description"
+    >
+
+        <div class="detail-top">
+
+            <span class="label">ABOUT THIS PROJECT</span>
+
+            <button
+                class="close-button"
+                id="about-close"
+                aria-label="Close about panel"
+            >×</button>
+
+        </div>
+
+        <div class="detail-content">
+
+            <p class="detail-number">A NOTE TO MYSELF</p>
+
+            <h2 id="about-title">
+                Why I made STILL.
+            </h2>
+
+            <div class="divider"></div>
+
+            <p class="description" id="about-description">STILL. is a personal collection of principles I want to remember when my thoughts become overwhelming.
+
+I made this space to remind myself that I don't have to figure everything out at once, that not every thought deserves my attention, and that I can only work with what is within my reach.
+
+These are not rules for becoming a perfect person. They are reminders to return to when I lose perspective.</p>
+
+        </div>
+
+        <div class="detail-bottom">
+
+            <span>STILL.</span>
+
+            <span>A NOTE TO MYSELF</span>
+
+        </div>
+
+    </article>
+
+</div>
+
+
+<script src="script.js"></script>
+
+</body>
+</html>
