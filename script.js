@@ -32,13 +32,13 @@ Don't let your world become so small that one thing determines how you feel abou
     },
 
     {
-        title: "Lorem ipsum dolor sit amet.",
+        title: "Spend Your Attention Wisely.",
 
-        description:
-            "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer posuere erat a ante venenatis dapibus posuere velit aliquet. Donec sed odio dui. Nulla vitae elit libero, a pharetra augue.",
+description:
+"Your attention is a limited resource.\n\nEvery thought, distraction, and activity takes a portion of it.\n\nBe intentional about where you direct your focus. Invest it in learning, creating, developing your skills, nurturing meaningful relationships, and building a life that reflects your values.\n\nNot everything deserves access to your mental space.",
 
-        reminder:
-            "Lorem ipsum dolor sit amet."
+reminder:
+"Spend your attention where your life actually grows."
     },
 
     {
