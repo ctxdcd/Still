@@ -28,7 +28,7 @@ Fill your days with things that interest you, develop your skills, explore new i
 Don't let your world become so small that one thing determines how you feel about everything else.`,
 
         reminder:
-            "Make your own world worth returning to."
+            "One thing can matter to you without becoming everything to you."
     },
 
     {
