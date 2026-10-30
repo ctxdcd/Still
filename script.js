@@ -9,20 +9,26 @@ const notes = [
         title: "Build what you can build today.",
 
         description:
-            "Your life does not need to be solved all at once. Focus on what is within your reach today. Progress comes from working with the time, resources, and circumstances you actually have—not from exhausting yourself over everything you lack.",
+`Your life does not need to be solved all at once. Focus on what is within your reach today.
+
+Progress comes from working with the time, resources, and circumstances you actually have not from exhausting yourself over everything you lack.`,
 
         reminder:
             "What can I actually do today?"
     },
 
     {
-        title: "Lorem ipsum dolor sit amet.",
+        title: "Give Your Own World More Substance.",
 
         description:
-            "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer posuere erat a ante venenatis dapibus posuere velit aliquet. Donec sed odio dui. Nulla vitae elit libero, a pharetra augue.",
+            `You cannot control everything happening around you, but you can gradually build a life that gives you more reasons to look forward to tomorrow.
+
+Fill your days with things that interest you, develop your skills, explore new ideas, and create meaningful experiences.
+
+Don't let your world become so small that one thing determines how you feel about everything else.`,
 
         reminder:
-            "Lorem ipsum dolor sit amet."
+            "Make your own world worth returning to."
     },
 
     {
