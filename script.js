@@ -14,7 +14,11 @@ const notes = [
 Progress comes from working with the time, resources, and circumstances you actually have not from exhausting yourself over everything you lack.`,
 
         reminder:
-            "What can I actually do today?"
+            "What can I actually do today?",
+
+        motto:
+    "No fork? Use a spoon. The spaghetti won't eat itself."
+
     },
 
     {
@@ -28,7 +32,11 @@ Fill your days with things that interest you, develop your skills, explore new i
 Don't let your world become so small that one thing determines how you feel about everything else.`,
 
         reminder:
-            "One thing can matter to you without becoming everything to you."
+            "One thing can matter to you without becoming everything to you.",
+
+        motto:
+        "Mind your own plate. Stop inspecting everyone else's spaghetti."
+
     },
 
     {
@@ -38,17 +46,24 @@ description:
 "Your attention is a limited resource.\n\nEvery thought, distraction, and activity takes a portion of it.\n\nBe intentional about where you direct your focus. Invest it in learning, creating, developing your skills, nurturing meaningful relationships, and building a life that reflects your values.\n\nNot everything deserves access to your mental space.",
 
 reminder:
-"Spend your attention where your life actually grows."
+"Spend your attention where your life actually grows.",
+
+motto:
+        "Even the finest spaghetti isn't an endless free sample."
+
     },
 
     {
     title: "Pursue What Is Yours. Leave the Rest.",
 
     description:
-        "Pursue your responsibilities, your ambitions, and the discipline to become who you intend to be. But do not pursue people's willingness to value you. Do not spend your days negotiating for attention, explanations, or consideration. If something requires you to repeatedly abandon your peace just to keep it, reconsider whether it deserves to be kept. Not everything requires a response, and not everything deserves another attempt.",
+        "Pursue your responsibilities, your ambitions, and the discipline to become who you intend to be.\n\n" +
+        "But do not pursue people's willingness to value you. Do not spend your days negotiating for attention, explanations, or consideration.\n\n" +
+        "If something requires you to repeatedly abandon your peace just to keep it, reconsider whether it deserves to be kept.\n\n" +
+        "Not everything requires a response, and not everything deserves another attempt.",
 
     reminder:
-        "Invest your effort where your actions matter. Leave the rest untouched.",
+        "Keep your hands off what is not yours to manage.",
 
     motto:
         "No emotional seasoning. No unnecessary curves. Just straight spaghetti."
@@ -219,6 +234,8 @@ const detailNumber = document.getElementById("detail-number");
 const detailTitle = document.getElementById("detail-title");
 const detailDescription = document.getElementById("detail-description");
 const detailReminder = document.getElementById("detail-reminder");
+const detailMotto = document.getElementById("detail-motto");
+const detailMottoWrap = document.getElementById("detail-motto-wrap");
 
 const card = document.getElementById("card");
 
@@ -272,6 +289,10 @@ function renderNote() {
     detailDescription.textContent = note.description;
 
     detailReminder.textContent = note.reminder;
+
+    detailMotto.textContent = note.motto || "";
+    
+    detailMottoWrap.hidden = !note.motto;
 
     prevButton.disabled = currentIndex === 0;
 
@@ -394,6 +415,8 @@ function openDetail() {
 
     previousFocus = document.activeElement;
 
+    detailPanel.scrollTop = 0;
+
     lockBodyScroll();
 
     overlay.classList.add("open");
@@ -454,6 +477,8 @@ overlay.addEventListener("click", (event) => {
 function openAbout() {
 
     aboutPreviousFocus = document.activeElement;
+
+    aboutPanel.scrollTop = 0;
 
     lockBodyScroll();
 
