@@ -42,14 +42,17 @@ reminder:
     },
 
     {
-        title: "Lorem ipsum dolor sit amet.",
+    title: "Pursue What Is Yours. Leave the Rest.",
 
-        description:
-            "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer posuere erat a ante venenatis dapibus posuere velit aliquet. Donec sed odio dui. Nulla vitae elit libero, a pharetra augue.",
+    description:
+        "Pursue your responsibilities, your ambitions, and the discipline to become who you intend to be. But do not pursue people's willingness to value you. Do not spend your days negotiating for attention, explanations, or consideration. If something requires you to repeatedly abandon your peace just to keep it, reconsider whether it deserves to be kept. Not everything requires a response, and not everything deserves another attempt.",
 
-        reminder:
-            "Lorem ipsum dolor sit amet."
-    },
+    reminder:
+        "Invest your effort where your actions matter. Leave the rest untouched.",
+
+    motto:
+        "No emotional seasoning. No unnecessary curves. Just straight spaghetti."
+},
 
     {
         title: "Lorem ipsum dolor sit amet.",
