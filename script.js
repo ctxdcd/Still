@@ -85,14 +85,20 @@ motto:
 },
 
     {
-        title: "Lorem ipsum dolor sit amet.",
+    title: "You Are Not Running Their Race.",
 
-        description:
-            "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer posuere erat a ante venenatis dapibus posuere velit aliquet. Donec sed odio dui. Nulla vitae elit libero, a pharetra augue.",
+    description:
+        "Nobody is waiting at a finish line. There is only your life and what you choose to build with the time you have.\n\n" +
+        "Comparing your progress to others makes you feel behind, and feeling behind can become another reason to escape instead of act.\n\n" +
+        "Your age is not the problem. Losing years to the belief that you're already too late is.\n\n" +
+        "Measure your progress against who you were six months ago. What have you learned? What have you built? What has changed?",
 
-        reminder:
-            "Lorem ipsum dolor sit amet."
-    },
+    reminder:
+        "Being behind someone else's timeline doesn't mean you're failing your own.",
+
+    motto:
+        "Different plates. Different portions. Eat your spaghetti."
+},
 
     {
         title: "Lorem ipsum dolor sit amet.",
