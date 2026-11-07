@@ -69,15 +69,20 @@ motto:
         "No emotional seasoning. No unnecessary curves. Just straight spaghetti."
 },
 
-    {
-        title: "Lorem ipsum dolor sit amet.",
+{
+    title: "Stay Through the Uncomfortable Middle.",
 
-        description:
-            "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer posuere erat a ante venenatis dapibus posuere velit aliquet. Donec sed odio dui. Nulla vitae elit libero, a pharetra augue.",
+    description:
+        "Progress becomes difficult when the excitement fades and results slow down. This is where you tend to quit, switch interests, or retreat into planning.\n\n" +
+        "But skills are built by staying through the difficult parts, not repeatedly starting over.\n\n" +
+        "Use analysis to find your next action, not another reason to delay. Make your plans smaller, your actions more regular, and stop treating every obstacle as a reason to quit.",
 
-        reminder:
-            "Lorem ipsum dolor sit amet."
-    },
+    reminder:
+        "You don't need to enjoy every part of the process. You need to learn how to remain when it becomes difficult.",
+
+    motto:
+        "Less planning in the kitchen. More spaghetti on the plate."
+},
 
     {
         title: "Lorem ipsum dolor sit amet.",
