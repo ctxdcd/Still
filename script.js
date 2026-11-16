@@ -100,25 +100,37 @@ motto:
         "Different plates. Different portions. Eat your spaghetti."
 },
 
+
+{
+title: "Somewhere, Something Beautiful.",
+
+description:
+    "There are still places I haven't seen, languages I haven't learned and people I haven't met.\n\n" +
+    "I want to experience the world. To dance among strangers, laugh with people from different cultures, and discover things I don't even know exist yet.\n\n" +
+    "Life isn't always beautiful, and it isn't easy for everyone. But not everything has happened yet. There's still so much left to experience.",
+
+reminder:
+    "You haven't experienced everything life has to offer. Don't let today's pain convince you that tomorrow has nothing left.",
+
+motto:
+    "Some of the best spaghetti is still being cooked."
+
+},
+
     {
-        title: "Lorem ipsum dolor sit amet.",
+        title: "Experience Builds Intuition.",
 
-        description:
-            "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer posuere erat a ante venenatis dapibus posuere velit aliquet. Donec sed odio dui. Nulla vitae elit libero, a pharetra augue.",
+description:
+"You don't always need to understand the architecture of something before you can learn to use it.\n\n" +
+"Sometimes, you learn by doing. You encounter unfamiliar things, experiment, make mistakes, recognise patterns, and gradually understand how everything works.\n\n" +
+"That's how I learned English. And perhaps the same applies to Blender, writing, drawing, and so many other things. I don't need to understand everything before I begin. I can build experience and understanding at the same time.",
 
-        reminder:
-            "Lorem ipsum dolor sit amet."
-    },
+reminder:
+"Don't wait until you understand everything. Start somewhere. Experience will teach you things that theory alone cannot.",
 
-    {
-        title: "Lorem ipsum dolor sit amet.",
-
-        description:
-            "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer posuere erat a ante venenatis dapibus posuere velit aliquet. Donec sed odio dui. Nulla vitae elit libero, a pharetra augue.",
-
-        reminder:
-            "Lorem ipsum dolor sit amet."
-    },
+motto:
+"You don't need the whole recipe to start cooking."
+},
 
     {
         title: "Lorem ipsum dolor sit amet.",
