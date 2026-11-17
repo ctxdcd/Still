@@ -132,15 +132,21 @@ motto:
 "You don't need the whole recipe to start cooking."
 },
 
-    {
-        title: "Lorem ipsum dolor sit amet.",
+{
+    
+title: "I Came, I Saw, I Questioned the Logic.",
 
-        description:
-            "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer posuere erat a ante venenatis dapibus posuere velit aliquet. Donec sed odio dui. Nulla vitae elit libero, a pharetra augue.",
+description:
+"Sometimes, people can be remarkably difficult to understand. You observe their actions, listen to their arguments, and somehow find yourself questioning how they arrived at such conclusions.\n\n" +
+"Not every contradiction needs an argument, and not every unreasonable response deserves your energy. Sometimes, the best thing you can do is recognise the nonsense, raise an eyebrow, and move on.\n\n" +
+"Preserve your brainpower for things worth investigating. At least when a Blender modifier behaves irrationally, you can inspect its settings. People, unfortunately, don't come with an editable modifier stack.",
 
-        reminder:
-            "Lorem ipsum dolor sit amet."
-    },
+reminder:
+"Not everything deserves your attention. Know when to investigate, when to question, and when to simply move on.",
+
+motto:
+"Let them boil in their own broth."
+},
 
     {
         title: "Lorem ipsum dolor sit amet.",
